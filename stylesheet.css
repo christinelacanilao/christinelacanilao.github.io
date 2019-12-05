@@ -15,7 +15,7 @@ body {
 }
 
 .headermap {
-  max-width: 100%;
+  width: 100%;
   height: 100px;
   background-image: url('GISmap.png');
   background-repeat: no-repeat;
