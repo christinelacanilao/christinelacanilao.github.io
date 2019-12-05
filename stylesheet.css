@@ -9,7 +9,7 @@ body {
 
 /* Style the logo */
 .logo {
-  height: 200px;
+  height: 150px;
   width: auto;
 }
 
@@ -30,7 +30,7 @@ body {margin:0;font-family:Arial}
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 4px 16px;
   text-decoration: none;
   font-size: 17px;
 }
