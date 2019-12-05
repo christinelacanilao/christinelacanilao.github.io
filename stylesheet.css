@@ -3,36 +3,30 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   margin: 0;
-}
+} */
 
-.row {
-  display: flex;
-  
-}
 
 /* Create two equal columns that sits next to each other */
-.column {
-  flex: 49.9%;
-  padding: 2px;
-}
 
-/* Style the logo 
-.logo {
- 
-  height: 90x;
-  width: auto;
-}
 
-.headermap {
-  width: 100%;
+/* Style the logo */
+
+
+.box {
+  float right
+  width: 50%;
   height: 100px;
-  background-image: url('GISmap.png');
-  background-repeat: no-repeat;
-  background-size: contain;
 	
-} */
+} 
+ 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 </style>
 
 /* Style the topnav. Section by Ian Wright. Sourced from W3Schools */
