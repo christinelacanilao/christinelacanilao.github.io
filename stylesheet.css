@@ -14,7 +14,7 @@ body {
 /* Create three equal columns that sits next to each other */
 .column {
   flex: 49.9%;
-  padding: 5px;
+  padding: 2px;
 }
 
 /* Style the logo 
