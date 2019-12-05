@@ -9,13 +9,14 @@ body {
 
 /* Style the logo */
 .logo {
+  float: left;
   height: 100x;
   width: auto;
 }
 .headermap {
-  float: right;
 	width:auto;
 	height:100px;
+}
 </style>
 
 /* Style the topnav. Section by Ian Wright. Sourced from W3Schools */
