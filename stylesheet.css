@@ -9,8 +9,8 @@ body {
 
 /* Style the header */
 .logo {
- max-width: 10%;
-  height: auto;
+  height: 100px;
+  width: 100px;
 }
 
 </style>
