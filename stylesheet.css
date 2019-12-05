@@ -11,7 +11,7 @@ body {
   display: flex;
 }
 
-/* Create three equal columns that sits next to each other */
+/* Create two equal columns that sits next to each other */
 .column {
   flex: 49.9%;
   padding: 2px;
