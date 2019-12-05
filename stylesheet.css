@@ -13,14 +13,14 @@ body {
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
+/* Clearfix (clear floats) 
 .row::after {
   content: "";
   clear: both;
   display: table;
-}
+} */
 
-/* Style the logo */
+/* Style the logo 
 .logo {
  
   height: 90x;
@@ -34,7 +34,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 	
-}
+} */
 </style>
 
 /* Style the topnav. Section by Ian Wright. Sourced from W3Schools */
