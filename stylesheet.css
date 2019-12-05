@@ -9,6 +9,7 @@ body {
 
 .row {
   display: flex;
+  heigth: 150px;
 }
 
 /* Create two equal columns that sits next to each other */
