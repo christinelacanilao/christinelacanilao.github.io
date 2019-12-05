@@ -9,13 +9,18 @@ body {
 
 /* Style the logo */
 .logo {
-  float: left;
+ 
   height: 100x;
   width: auto;
 }
+
 .headermap {
-	width:auto;
-	height:100px;
+  max-width: 100%;
+  height: 100px;
+  background-image: url('GISmap.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+	
 }
 </style>
 
