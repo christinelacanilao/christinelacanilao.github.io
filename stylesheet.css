@@ -315,6 +315,9 @@ body {margin:0;font-family:Arial}
   color: white;
   background-color: black;
 }
+.footer-container {
+  background-color: black;
+}
 .footer-bottom-area {
   color: white;
 }
