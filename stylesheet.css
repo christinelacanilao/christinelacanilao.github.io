@@ -77,6 +77,13 @@ body, html {
 }
 
 /* Meet the team */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /* Three columns side by side */
 .column {
