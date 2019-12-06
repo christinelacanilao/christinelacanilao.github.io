@@ -438,7 +438,7 @@ body {margin:0;font-family:Arial}
 .footer-container {
   background-color: #333;
   color: white;
-  margin-left:20px;
+  text-align: justify;
 }
 
 .footer-bottom-area {
