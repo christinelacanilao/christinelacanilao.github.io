@@ -9,8 +9,9 @@
   margin: auto;
 }
 
-/* ABOUT US SECTION */
+/* ---------- ABOUT US SECTION ---------- */
 
+/* Inspired and sourced from https://www.w3schools.com/howto/howto_css_parallax.asp */
 /* Parralax */
 body, html {
   height: 100%;
@@ -23,32 +24,19 @@ body, html {
 
 .parallax-2 {
   background-image: url("Images/parallax_2.jpg");
-  min-height: 100%;
+  min-height: 400px;
 }
 
 .parallax-3 {
   background-image: url("Images/parallax_3.jpg");
-  min-height: 100%;
+  min-height: 400px;
 }
 
-.parallax-4 {
-  background-image: url("Images/parallax_4.jpg");
-  min-height: 100%;
-}
-
-.parallax-1, .parallax-2 {
+.parallax-1, .parallax-2, .parallax-3 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax-3, .parallax-4 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
+  background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,6 +49,14 @@ body, html {
   width: 100%;
   text-align: center;
   color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
 
 /* Meet the team */
