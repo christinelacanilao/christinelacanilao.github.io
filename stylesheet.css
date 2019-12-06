@@ -136,14 +136,18 @@ body {margin:0;font-family:Arial}
 
 
 /* Footer*/
-.footer {
+
+.leftside-footer {
   padding: 100px;
-}
-.footer {
   color: white;
   background-color: black;
 }
-.footer-bottom.area {
+.rightside-footer {
+  padding: 100px;
+  color: white;
+  background-color: black;
+}
+.footer-bottom-area {
   padding: 20px;
   color: white;
   background-color: black;
