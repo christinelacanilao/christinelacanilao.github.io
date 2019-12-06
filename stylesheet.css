@@ -60,13 +60,13 @@ body, html {
 }
 
 .parallax-text {
-  position: absolute;
-  background-color: #111;
+  background-color: #808080;
   color: #fff;
   align-content: center;
   text-align: center;
   padding: 50px 80px;
   letter-spacing: 7px;
+  text-align: justify;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
