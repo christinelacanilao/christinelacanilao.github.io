@@ -332,6 +332,19 @@ body {margin:0;font-family:Arial}
   height: auto;
 }
 
+.header5 {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .header5 {
+    width: 100%;
+    display: block;
+
 * {
   box-sizing: border-box;
 }
