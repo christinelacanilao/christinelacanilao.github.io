@@ -104,6 +104,10 @@ body, html {
   background-size: cover;
 }
 
+.card .img {
+  float: left;
+}
+
 /* Some left and right padding inside the container */
 .container {
   float: right;
