@@ -60,11 +60,13 @@ body, html {
 }
 
 .parallel-text {
+  position: absolute;
   background-color: #111;
   color: #fff;
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
+  letter-spacing: 7px;
 }
 
 /* Meet the team */
