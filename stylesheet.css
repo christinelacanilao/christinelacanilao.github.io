@@ -438,11 +438,10 @@ body {margin:0;font-family:Arial}
 }
 .footer-container {
   background-color: #333;
-}
-.footer-links{
-  color:white;
+  color: white;
   margin-left:20px;
 }
+
 .footer-bottom-area {
   color: white;
 }
