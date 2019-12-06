@@ -316,11 +316,7 @@ body {margin:0;font-family:Arial}
 }
 
 /*Index*/
-.background-index {
-  background-image: url("Images/backgroundindex.jpg");
-  /* From https://iso.500px.com/beginners-guide-drone-photography-part-2-tips-tricks/ by Tobias  Hagg*/
-  background-position: center;
-}
+
 
 
 /* Footer*/
