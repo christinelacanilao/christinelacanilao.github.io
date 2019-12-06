@@ -322,6 +322,9 @@ body {margin:0;font-family:Arial}
   background-position: center;
 }
 
+.index-column {
+  position: fixed;
+}
 /* Footer*/
 
 .leftside-footer {
