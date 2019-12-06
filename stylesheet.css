@@ -144,7 +144,10 @@ body, html {
 
 /* ---------- CONTACT SECTION ---------- */
 
+/* Section 1 - Email Contact Us */
+
 /* Background Image */
+
 /* Inspired by w3schools - paired with specific parameters to show a background and create a design */
 .background-1 {
   background-image: url("Images/background_1.jpg");
@@ -157,7 +160,16 @@ body, html {
   position: relative;
 }
 
-/* Section 1 - Email Contact Us */
+/* Style the container/contact section */
+.contact-container {
+  text-align: center;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+}  
 
 /* Inspired from https://www.w3schools.com/howto/howto_css_contact_section.asp */
 * {
@@ -185,17 +197,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-  
-/* Style the container/contact section */
-.contact-container {
-  text-align: center;
-  position: absolute;
-  background-color: white;
-  border-radius: 5px;
-  padding: 10px;
-  top: 50%;
-  left: 50%;
-}  
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
