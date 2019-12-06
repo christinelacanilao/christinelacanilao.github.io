@@ -15,9 +15,9 @@ body {
 
 .flex-container .box {
   background-color: #f2f2f2;
-  width: 50%;
+  width: 40%;
   margin: 10px;
-  text-align: center;
+  text-align: left;
   line-height: 75px;
   font-size: 30px;
 }
