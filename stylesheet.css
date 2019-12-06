@@ -105,7 +105,7 @@ body, html {
   float: left;
   margin-left: auto;
   margin-right: auto;
-  height: 100%;
+  display: block;
   background-image: center;
   background-size: cover;
 }
@@ -117,6 +117,12 @@ body, html {
   padding: 0 16px;
 }
 
+.card-content {
+  margin: 0 auto;
+  clear: both
+  display: flex;
+}
+
 /* Clear floats */
 .container::after, .row::after {
   content: "";
@@ -126,7 +132,7 @@ body, html {
 }
 
 .title {
-  color: grey;
+  color: white;
 }
 
 .button {
