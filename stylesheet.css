@@ -136,8 +136,16 @@ body {margin:0;font-family:Arial}
 
 <style>
 /* Footer*/
-.footer-bottom-area {
-  background-color: #151515;
-  color: #909da4;
+footer {
+  padding: 100px
+}
+footer {
+  color: white
+  background-color: black
+}
+.footer-bottom.area {
+  padding: 20px
+  color: white
+  background-color: black
 }
 </style>
