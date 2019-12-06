@@ -1,4 +1,4 @@
-<style>
+
 * {
   box-sizing: border-box;
 }
@@ -10,23 +10,23 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  background-color: DodgerBlue;
+  background-color: D#4CAF50;
 }
 
 .flex-container .box {
   background-color: #f1f1f1;
-  width: 50%;
+  width: 33.33%;
   margin: 10px;
-  text-align: center;
+  text-align: left;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
-</style>
+
 
 /* Style the topnav. Section by Ian Wright. Sourced from W3Schools */
 
-<style>
+
 body {margin:0;font-family:Arial}
 
 .topnav {
@@ -132,12 +132,6 @@ body {margin:0;font-family:Arial}
   }
 }
 
-</style>
 
-<style>
-/* Footer*/
-.footer-bottom-area {
-  background-color: #151515;
-  color: #909da4;
-}
-</style>
+
+
