@@ -1,3 +1,13 @@
+/* ---------- CENTER CONTENT ---------- */
+
+/* Inspired by https://www.w3schools.com/howto/howto_css_center_website.asp */
+.content {
+  max-width: 1200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    margin-top: 1%;
+}
+
 /* CONTACT SECTION */
 
 /* Section 1 - Email Contact Us */
@@ -63,13 +73,18 @@
 
 /* Inspired from https://www.w3schools.com/howto/howto_css_flip_card.asp */
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* Add some shadows to create a card effect */
+.section-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* The flip card container - set width and height */
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 200px;
     border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px; /* 3D effect */
   }
   
   /* This container is needed to position the front and back side */
