@@ -323,22 +323,22 @@ body {margin:0;font-family:Arial}
 }
 
 .index-column {
-  position: relative;
+  position: absolute;
 }
 /* Footer*/
 
 .leftside-footer {
   padding: 40px;
   color: white;
-  background-color: grey;
+  background-color: rgb(68, 63, 63);
 }
 .rightside-footer {
   padding: 40px;
   color: white;
-  background-color: grey;
+  background-color: rgb(68, 63, 63);
 }
 .footer-container {
-  background-color: grey;
+  background-color: rgb(68,63,63);
 }
 .footer-bottom-area {
   color: white;
