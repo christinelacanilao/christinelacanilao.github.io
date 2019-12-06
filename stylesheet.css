@@ -178,6 +178,8 @@ body, html {
   
   /* Style the container/contact section */
   .container {
+    text-align: center;
+    position: absolute;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
