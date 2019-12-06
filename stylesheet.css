@@ -340,7 +340,7 @@ body {margin:0;font-family:Arial}
 
 .header5 {
   background-color: #666;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -419,18 +419,6 @@ body {margin:0;font-family:Arial}
 }
 
 
-/* Index*/
-.index-background{
-  background-image: url("Images/backgroundindex.jpg");
-  min-height: 100%;
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-color: transparent;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* Footer*/
 
