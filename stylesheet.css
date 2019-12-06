@@ -11,6 +11,45 @@
 
 /* ABOUT US SECTION */
 
+/* Parralax */
+.parallax-1, .parallax-2, .parallax-3, parallax-4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1 {
+  background-image: "parallax_1";
+  min-height: 100%;
+}
+
+.parallax-2 {
+  background-image: "parallax_2";
+  min-height: 100%;
+}
+
+.parallax-3 {
+  background-image: "parallax_3";
+  min-height: 100%;
+}
+
+.parallax-4 {
+  background-image: "parallax_4";
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
 /* Meet the team */
 
 /* Add some shadows to create a card effect */
