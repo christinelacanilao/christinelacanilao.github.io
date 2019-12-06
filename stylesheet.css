@@ -1,3 +1,129 @@
+/* ---------- CENTER CONTENT ---------- */
+
+/* Inspired by https://www.w3schools.com/howto/howto_css_center_website.asp */
+.content {
+  max-width: 1200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    margin-top: 1%;
+}
+
+/* CONTACT SECTION */
+
+/* Section 1 - Email Contact Us */
+
+/* Inspired from https://www.w3schools.com/howto/howto_css_contact_section.asp */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/* Section 2 - Contact Flip Cards */
+
+/* Inspired from https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+/* Add some shadows to create a card effect */
+.section-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* The flip card container - set width and height */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+<style>
 
 * {
   box-sizing: border-box;
@@ -26,7 +152,10 @@ body {
 
 /* Style the topnav. Section by Ian Wright. Sourced from W3Schools */
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> ceca1329edb74e5421e433b1235192d2e012530a
 body {margin:0;font-family:Arial}
 
 .topnav {
@@ -133,8 +262,11 @@ body {margin:0;font-family:Arial}
 }
 
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> ceca1329edb74e5421e433b1235192d2e012530a
 /* Footer*/
 
 .leftside-footer {
