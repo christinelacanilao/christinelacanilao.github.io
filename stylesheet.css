@@ -90,13 +90,14 @@ body, html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
+  float: left;
 }
 
 /* Some left and right padding inside the container */
 .container {
   width: 50%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	text-align: center;
+  text-align: center;
 	
 	display: inline-block; /* Box outline */
 	border: 1px solid #696969;
