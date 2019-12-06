@@ -2,7 +2,7 @@
 .wrapperBanner {
   width: 100vw;
   background: url("Images/cdilogo2.png");
-  background-position: 100% 100%;
+  background-position: 100%;
   background-repeat: no-repeat;
   text-align: center;
 }
