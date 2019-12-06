@@ -104,10 +104,6 @@ body, html {
   background-size: cover;
 }
 
-.card .img {
-  float: left;
-}
-
 /* Some left and right padding inside the container */
 .container {
   float: right;
@@ -348,6 +344,8 @@ body {margin:0;font-family:Arial}
   .header5 {
     width: 100%;
     display: block;
+  }
+}
 
 * {
   box-sizing: border-box;
