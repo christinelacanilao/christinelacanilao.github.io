@@ -401,6 +401,11 @@ body {margin:0;font-family:Arial}
 /* Index*/
 .index-background{
   background-image: url("Images/backgroundindex.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: relative;
 }
 
 /* Footer*/
