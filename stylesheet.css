@@ -24,12 +24,12 @@ body, html {
 
 .parallax-2 {
   background-image: url("Images/parallax_2.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 
 .parallax-3 {
   background-image: url("Images/parallax_3.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 
 .parallax-1, .parallax-2, .parallax-3 {
@@ -59,6 +59,14 @@ body, html {
   letter-spacing: 10px;
 }
 
+.parallel-text {
+  background-color: white;
+  color: #777;
+  text-align: center;
+  padding: 50px 80 px;
+  text-align: justify;
+}
+
 /* Meet the team */
 
 /* Add some shadows to create a card effect */
@@ -66,24 +74,8 @@ body, html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
 
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-  color: LightSteelBlue;
-}
-
-.title {
-  color: grey;
-}
-
-/* CONTACT SECTION */
+/* ---------- CONTACT SECTION ---------- */
 
 /* Section 1 - Email Contact Us */
 
