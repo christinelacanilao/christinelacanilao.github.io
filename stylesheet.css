@@ -262,20 +262,17 @@ body {margin:0;font-family:Arial}
 }
 
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> ceca1329edb74e5421e433b1235192d2e012530a
 /* Footer*/
 
 .leftside-footer {
-  padding: 20px;
+  padding: 50px;
   color: white;
   background-color: black;
 }
 .rightside-footer {
-  padding: 20px;
+  padding: 50px;
   color: white;
   background-color: black;
 }
