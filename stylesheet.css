@@ -69,6 +69,13 @@ body, html {
   letter-spacing: 7px;
 }
 
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .parallax-1, .parallax-2, .parallax-3 {
+    background-attachment: scroll;
+  }
+}
+
 /* Meet the team */
 
 /* Add some shadows to create a card effect */
