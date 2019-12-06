@@ -31,22 +31,22 @@
 }
 
 .parallax-1 {
-  background-image: "parallax_1.jpg";
+  background-image: url("parallax_1.jpg");
   min-height: 100%;
 }
 
 .parallax-2 {
-  background-image: "parallax_2.jpg";
+  background-image: url("parallax_2.jpg");
   min-height: 100%;
 }
 
 .parallax-3 {
-  background-image: "parallax_3.jpg";
+  background-image: url("parallax_3.jpg");
   min-height: 100%;
 }
 
 .parallax-4 {
-  background-image: "parallax_4.jpg";
+  background-image: url("parallax_4.jpg");
   min-height: 100%;
 }
 
@@ -123,6 +123,8 @@
   
   /* Create two columns that float next to eachother */
   .column {
+    background-image: url("drone-background.jpg");
+    background-size: auto;
     float: left;
     width: 50%;
     margin-top: 6px;
