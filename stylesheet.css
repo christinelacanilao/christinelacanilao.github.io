@@ -393,7 +393,10 @@ body {margin:0;font-family:Arial}
 }
 
 
-
+/* Index*/
+.index-background{
+  background-image: url("Images/backgroundindex.jpg");
+}
 
 /* Footer*/
 
@@ -413,6 +416,8 @@ body {margin:0;font-family:Arial}
 .footer-bottom-area {
   color: white;
 }
+
+/* Make footer responsive*/
 @media only screen and (max-width: 600px){
   .leftside-footer .rightside-footer .footer-bottom-area .footer-container{
     width: 100%
