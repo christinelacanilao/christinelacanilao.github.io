@@ -418,7 +418,7 @@ body {margin:0;font-family:Arial}
 /* Index */
 
 .index-column{
-  margin: 20px;
+  margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size:18px
 }
@@ -426,7 +426,6 @@ body {margin:0;font-family:Arial}
 /* Footer*/
 
 .leftside-footer {
-  margin:20px;
   padding: 40px;
   color: white;
   background-color: #333;
@@ -439,8 +438,11 @@ body {margin:0;font-family:Arial}
 .footer-container {
   background-color: #333;
 }
-.footer-bottom-area {
+.footer-links{
+  color:white;
   margin:20px;
+}
+.footer-bottom-area {
   color: white;
 }
 
