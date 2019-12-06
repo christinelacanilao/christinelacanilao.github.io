@@ -136,10 +136,10 @@ body {margin:0;font-family:Arial}
 
 
 /* Footer*/
-footer {
+.footer {
   padding: 100px;
 }
-footer {
+.footer {
   color: white;
   background-color: black;
 }
