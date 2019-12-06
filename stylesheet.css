@@ -315,6 +315,11 @@ body {margin:0;font-family:Arial}
   }
 }
 
+/*Index*/
+.background-index {
+  background-image: url("Images/backgroundindex.jpg");
+  background-position: center;
+}
 
 /* Footer*/
 
