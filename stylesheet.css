@@ -97,28 +97,29 @@ body, html {
 .team-container {
   margin: 20px 20px 0 0;
   border: 5px solid #333;
-  overflow: auto
+  overflow: auto 
 }
 
 /* Add some shadows to create a card effect */
 .card {
   float: left;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  background-image: center;
-  background-size: cover;
+  display: block;
 }
 
 /* Some left and right padding inside the container */
-.container {
+.card-container {
   float: right;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0 16px;
 }
 
+.card-content {
+  margin: 0 auto;
+  clear: both
+}
+
 /* Clear floats */
-.container::after, .row::after {
+.card-container::after, .row::after {
   content: "";
   clear: both;
   display: table;
@@ -126,7 +127,7 @@ body, html {
 }
 
 .title {
-  color: grey;
+  color: white;
 }
 
 .button {
@@ -356,7 +357,7 @@ body {margin:0;font-family:Arial}
   box-sizing: border-box;
 }
 
-/* Create three columns of equal width for price list */
+/* Create three columns of equal width for price list ********Pricing List */
 .columns2 {
   float: left;
   width: 33.3%;
