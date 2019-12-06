@@ -322,11 +322,16 @@ body {margin:0;font-family:Arial}
   }
 }
 
+.responsive5 {
+  width: 100%;
+  height: auto;
+}
+
 * {
   box-sizing: border-box;
 }
 
-/* Create three columns of equal width */
+/* Create three columns of equal width for price list */
 .columns2 {
   float: left;
   width: 33.3%;
@@ -407,5 +412,10 @@ body {margin:0;font-family:Arial}
 }
 .footer-bottom-area {
   color: white;
+}
+@media only screen and (max-width: 600px){
+  .leftside-footer .rightside-footer .footer-bottom-area .footer-container{
+    width: 100%
+  }
 }
 
