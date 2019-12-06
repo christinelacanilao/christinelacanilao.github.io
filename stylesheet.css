@@ -323,7 +323,7 @@ body {margin:0;font-family:Arial}
 }
 
 .index-column {
-  position: fixed;
+  position: relative;
 }
 /* Footer*/
 
