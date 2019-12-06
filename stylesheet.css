@@ -1,6 +1,6 @@
 /* Banner Image */
 .wrapperBanner {
-  width: 100%;
+  width: 100vw;
   background: url("Images/cdilogo2.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
