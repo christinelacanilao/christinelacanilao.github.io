@@ -413,18 +413,6 @@ body {margin:0;font-family:Arial}
 }
 
 
-/* Index*/
-.index-background{
-  background-image: url("Images/backgroundindex.jpg");
-  min-height: 100%;
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-color: transparent;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* Footer*/
 
