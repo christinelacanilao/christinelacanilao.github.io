@@ -318,6 +318,7 @@ body {margin:0;font-family:Arial}
 /*Index*/
 .background-index {
   background-image: url("Images/backgroundindex.jpg");
+  /* From https://iso.500px.com/beginners-guide-drone-photography-part-2-tips-tricks/ by Tobias  Hagg*/
   background-position: center;
 }
 
@@ -326,15 +327,15 @@ body {margin:0;font-family:Arial}
 .leftside-footer {
   padding: 40px;
   color: white;
-  background-color: black;
+  background-color: grey;
 }
 .rightside-footer {
   padding: 40px;
   color: white;
-  background-color: black;
+  background-color: grey;
 }
 .footer-container {
-  background-color: black;
+  background-color: grey;
 }
 .footer-bottom-area {
   color: white;
