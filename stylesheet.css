@@ -77,13 +77,6 @@ body, html {
 }
 
 /* Meet the team */
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 /* Three columns side by side */
 .column {
@@ -325,7 +318,7 @@ body {margin:0;font-family:Arial}
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .column1 {
     width: 100%;
     display: block;
