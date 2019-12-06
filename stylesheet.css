@@ -122,6 +122,17 @@ body, html {
 
 /* ---------- CONTACT SECTION ---------- */
 
+/* Background Image */
+/* Inspired by w3schools - paired with specific parameters to show a background and create a design */
+.bg1 {
+  background-image: url("Images/background_1.jpg");
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* Section 1 - Email Contact Us */
 
 /* Inspired from https://www.w3schools.com/howto/howto_css_contact_section.asp */
