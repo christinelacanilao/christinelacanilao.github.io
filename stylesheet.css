@@ -94,6 +94,12 @@ body, html {
   }
 } */ */
 
+.team-container {
+  margin: 20px 20px 0 0;
+  border: 5px solid #333;
+  overflow: auto
+}
+
 /* Add some shadows to create a card effect */
 .card {
   float: left;
@@ -334,7 +340,7 @@ body {margin:0;font-family:Arial}
 
 .header5 {
   background-color: #666;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   font-size: 35px;
   color: white;
