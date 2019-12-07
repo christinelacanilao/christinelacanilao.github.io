@@ -10,7 +10,7 @@
 }
 
 /* Banner Image */
-.wrapperBanner {
+.banner-image {
   background-image: url("Images/cdilogo2.png");
   background-size: cover;
   background-position: center center;
@@ -85,14 +85,6 @@ body, html {
 }
 
 /* Meet the team */
-
-/* Display the columns below each other instead of side by side on small screens */
-/* @media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-} */ */
 
 /* Add some shadows to create a card effect */
 .card {
