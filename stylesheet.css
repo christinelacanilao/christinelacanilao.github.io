@@ -193,6 +193,7 @@ input[type=submit]:hover {
   
 /* Style the container/contact section */
 .Section-1 {
+  margin: 0 auto;
   text-align: left;
   background-color: white;
   border-radius: 5px;
