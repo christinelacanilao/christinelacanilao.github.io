@@ -69,7 +69,7 @@ body, html {
 }
 
 .parallax-text {
-  background-color: #656565;
+  background-color: #111;
   color: #fff;
   align-content: center;
   text-align: center;
@@ -348,7 +348,7 @@ body {margin:0;font-family:Arial}
 }
 
 .header5 {
-  background-image: url("Images/sunrise.jpg");
+  background-image: url("Images/sunrise1.jpg"); /*imaged sourcewd from https://www.religiousstudiesproject.com/ */
   padding: 20px;
   text-align: center;
   font-size: 35px;
