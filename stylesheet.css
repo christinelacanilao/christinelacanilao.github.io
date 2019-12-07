@@ -423,7 +423,7 @@ input[type=submit]:hover {
   }
 }
 
-/* Index */
+/* Index by Dani Cotton*/
 
 .index-column{
   font-size:18px
@@ -435,14 +435,14 @@ input[type=submit]:hover {
   background-color: #696969;
   text-align: center;
 }
-
+/* Make index responsive*/
 @media only screen and (max-width: 600px){
   .index-column .container-index .index-row{
     width: 100%;
   }
 }
 
-/* Portfolio*/
+/* Portfolio by Dani Cotton*/
 .container-port {
   width: 100%;
   padding: 10px;
@@ -453,6 +453,8 @@ input[type=submit]:hover {
 .port-column {
   font-size: 18px
 }
+
+/* Make portfolio responsive*/
 @media only screen and (max-width: 600px){
     .container-port .port-column .port-row{
       width: 100%;
