@@ -202,6 +202,7 @@ input[type=submit]:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }  
 
+/* Just used to stop footer going over contact form */
 .contact-info {
   height: 100px;
 }
