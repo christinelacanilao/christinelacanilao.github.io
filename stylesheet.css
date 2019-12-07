@@ -193,6 +193,7 @@ input[type=submit]:hover {
 .Section-1 {
   margin: 0 auto;
   text-align: left;
+  color: #333;
   background-color: white;
   border-radius: 5px;
   padding: 15px;
