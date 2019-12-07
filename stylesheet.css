@@ -437,6 +437,12 @@ input[type=submit]:hover {
   margin-left: 20px;
   font-size:18px
 }
+.container-index {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  text-align: center;
+}
 
 /* Footer. Designed by Dani Cotton*/
 
@@ -467,9 +473,3 @@ input[type=submit]:hover {
   }
 }
 
-.container {
-  width: 100%;
-  padding: 10px;
-  background-color: #333;
-  text-align: center;
-}
