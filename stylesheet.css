@@ -76,6 +76,7 @@ body, html {
   padding: 50px 80px;
   /* letter-spacing: 3px; */
   text-align: justify;
+  opacity: 0.65;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
