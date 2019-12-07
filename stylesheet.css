@@ -440,6 +440,7 @@ input[type=submit]:hover {
 .container-index {
   width: 100%;
   padding: 10px;
+  color: white;
   background-color: #333;
   text-align: center;
 }
@@ -448,6 +449,7 @@ input[type=submit]:hover {
 .container-portfolio {
   width: 100%;
   padding: 10px;
+  color: white;
   background-color: #333;
   text-align: center;
 }
