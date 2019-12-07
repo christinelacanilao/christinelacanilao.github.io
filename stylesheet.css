@@ -447,6 +447,12 @@ input[type=submit]:hover {
   text-align: center;
 }
 
+@media only screen and (max-width: 600px){
+  .index-column .container-index .index-row{
+    width: 100%;
+  }
+}
+
 /* Portfolio*/
 .container-port {
   width: 100%;
@@ -457,6 +463,11 @@ input[type=submit]:hover {
 }
 .port-column {
   font-size: 18px
+}
+@media only screen and (max-width: 600px){
+    .container-port .port-column .port-row{
+      width: 100%;
+    }
 }
 
 /* Footer. Designed by Dani Cotton*/
