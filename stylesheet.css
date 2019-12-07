@@ -444,6 +444,14 @@ input[type=submit]:hover {
   text-align: center;
 }
 
+/* Portfolio*/
+.container-portfolio {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  text-align: center;
+}
+
 /* Footer. Designed by Dani Cotton*/
 
 .leftside-footer {
