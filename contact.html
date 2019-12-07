@@ -44,14 +44,14 @@
             <h2>Contact Us</h2>
             <p>We would love to hear from you, leave us a message:</p> 
 
-            <label for="fname">First and Last Name</label>
+            <label for="firstname">First and Last Name</label>
             <input type="text" id="fullname" name="fullname" placeholder="First and Last Name">
             <label for="email">Email</label>           
             <input type="text" id="email" name="email" placeholder="Email">
             <label for="country">Country</label>
-            <select id="country" name="country" placeholder="Select one:">                    <!-- Option value list grabbed from https://gist.github.com/danrovito/977bcb97c9c2dfd3398a-->
-                <option value="blank">     </option>
-                <option value="Afghanistan">Afghanistan</option>
+            <select id="country" name="country">                    <!-- Option value list grabbed from https://gist.github.com/danrovito/977bcb97c9c2dfd3398a-->
+                <option disabled selected value> -- Select an option -- </option>       <!--- Grabbed from https://stackoverflow.com/questions/8605516/default-select-option-as-blank-->
+                <option value="Afghanistan">Afghanistan</option>                        <!-- to disable optino for selected value so it runs no errors -->
                 <option value="Åland Islands">Åland Islands</option>
                 <option value="Albania">Albania</option>
                 <option value="Algeria">Algeria</option>
