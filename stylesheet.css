@@ -493,8 +493,8 @@ input[type=submit]:hover {
 }
 
 .rightside-footer{
-  position: absolute;
-  right: 0px;
+ display: block;
+ margin-right: 0px;
 }
 /* Make footer responsive*/
 @media only screen and (max-width: 600px){
