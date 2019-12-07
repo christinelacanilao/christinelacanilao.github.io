@@ -435,7 +435,6 @@ input[type=submit]:hover {
 
 .index-column{
   margin-left: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size:18px
 }
 
@@ -468,3 +467,9 @@ input[type=submit]:hover {
   }
 }
 
+.container {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  text-align: center;
+}
