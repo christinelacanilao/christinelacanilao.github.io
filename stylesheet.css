@@ -159,6 +159,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
 }
 
 /* Section 1 - Email Contact Us */
