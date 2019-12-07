@@ -170,10 +170,10 @@ body, html {
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 7px;
+  margin-bottom: 15px;
   resize: vertical;
 }
 
