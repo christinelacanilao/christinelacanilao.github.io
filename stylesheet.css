@@ -434,7 +434,6 @@ input[type=submit]:hover {
 /* Index */
 
 .index-column{
-  margin-left: 20px;
   font-size:18px
 }
 .container-index {
@@ -452,6 +451,9 @@ input[type=submit]:hover {
   color: white;
   background-color: #696969;
   text-align: center;
+}
+.port-column {
+  font-size: 18px
 }
 
 /* Footer. Designed by Dani Cotton*/
