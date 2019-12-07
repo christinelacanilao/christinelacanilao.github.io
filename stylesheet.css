@@ -154,7 +154,6 @@ body, html {
 .background-1 {
   background-image: url("Images/background_1.jpg");
   background-attachment: fixed;
-  background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
