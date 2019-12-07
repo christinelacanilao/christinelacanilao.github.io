@@ -188,13 +188,13 @@ input[type=submit]:hover {
   
 /* Style the container/contact section */
 .Section-1 {
-  text-align: center;
+  text-align: left;
   position: absolute;
   background-color: white;
   border-radius: 5px;
-  padding: 10px;
-  top: 50%;
-  left: 50%;
+  padding: 15px;
+  top: 10px;
+  margin: 100px;
 }  
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
