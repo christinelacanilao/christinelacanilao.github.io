@@ -35,17 +35,17 @@ body, html {
 }
 
 .parallax-1 {
-  background-image: url("Images/parallax_1.jpg");
+  background-image: url("Images/parallax_1.jpg");         /* Stock photo grabbed from https://burst.shopify.com/ */
   min-height: 100%;
 }
 
 .parallax-2 {
-  background-image: url("Images/parallax_2.jpg");
+  background-image: url("Images/parallax_2.jpg");         /* Stock photo grabbed from https://burst.shopify.com/ */
   min-height: 500px;
 }
 
 .parallax-3 {
-  background-image: url("Images/parallax_3.jpg");
+  background-image: url("Images/parallax_3.jpg");         /* Stock photo grabbed from https://burst.shopify.com/ */
   min-height: 500px;
 }
 
@@ -160,7 +160,7 @@ body, html {
 /* Background Image */
 /* Inspired by w3schools - paired with specific parameters to show a background and create a design */
 .background-1 {
-  background-image: url("Images/background_1.jpg");
+  background-image: url("Images/background_1.jpg");         /* Stock photo grabbed from https://burst.shopify.com/ */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
