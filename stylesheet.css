@@ -489,6 +489,10 @@ input[type=submit]:hover {
   color: white;
 }
 
+.rightside-footer{
+  align-content: right;
+}
+
 /* Make footer responsive*/
 @media only screen and (max-width: 600px){
   .leftside-footer .rightside-footer .footer-bottom-area .footer-container{
