@@ -159,9 +159,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  max-width: 800px;
 }
 
 /* Section 1 - Email Contact Us */
@@ -199,9 +196,9 @@ input[type=submit]:hover {
   position: absolute;
   background-color: white;
   border-radius: 5px;
-  padding: 15px;
-  top: 10px;
-  margin: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 800px;
 }  
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
