@@ -220,8 +220,6 @@ input[type=submit]:hover {
 
 /* Style for the navigation bar. Section by Ian Wright. Sourced from W3Schools */
 
-body {margin:0;font-family:Arial}
-
 .topnav {
   overflow: hidden;
   background-color: #333;
