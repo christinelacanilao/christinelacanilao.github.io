@@ -17,7 +17,8 @@ body {
   margin: auto;
 }
 
-/* Banner Image */
+/* Banner Image *
+/* Written by Christine */
 .banner-image {
   background-color: rgb(34,34,34); /* black to match logo */
   background-size: cover;
@@ -27,6 +28,8 @@ body {
 }
 
 /* ---------- ABOUT US SECTION ---------- */
+
+/* Written by Christine */
 
 /* Inspired and sourced from https://www.w3schools.com/howto/howto_css_parallax.asp */
 /* Parralax */
@@ -49,8 +52,8 @@ body, html {
   min-height: 500px;
 }
 
-.parallax-1, .parallax-2, .parallax-3 {
-  position: relative;
+.parallax-1, .parallax-2, .parallax-3 {                   /* These settings help dsecribe the images and apply an opacity to it */
+  position: relative;                                     /* As well as keeping it fixed to help give a parallax effect */
   opacity: 0.65;
   background-attachment: fixed;
   background-color: transparent;
@@ -76,8 +79,8 @@ body, html {
   letter-spacing: 10px;
 }
 
-.parallax-text {
-  background-color: #656565;
+.parallax-text {                                          /* This is for the block sections in between the images */
+  background-color: #656565;                            /* Grey is chosen since we have a black scheme ongoing */
   color: #fff;
   align-content: center;
   text-align: center;
@@ -132,7 +135,6 @@ body, html {
   color: white;
 }
 
-
 .title {
   color: white;
 }
@@ -156,6 +158,7 @@ body, html {
 
 /* ---------- CONTACT SECTION ---------- */
 
+/* Written by Christine */
 
 /* Background Image */
 /* Inspired by w3schools - paired with specific parameters to show a background and create a design */
@@ -188,7 +191,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: rgb(113,222,125);                              /* Matching the green part of the logo color */
   color: white;
   padding: 12px 20px;
   border: none;
@@ -196,7 +199,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(95,186,105);                              /* Picking a darker shade of green for hover */
 }
   
 /* Style the container/contact section */
