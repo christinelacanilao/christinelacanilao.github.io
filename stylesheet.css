@@ -101,6 +101,7 @@ body, html {
 /* Add some shadows to create a card effect */
 .card {
   display: flex;
+  margin-bottom: 20px;
 }
 
 /* Setting image size */
