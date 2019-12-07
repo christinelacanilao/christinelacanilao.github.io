@@ -205,6 +205,7 @@ input[type=submit]:hover {
 /* Just used to stop footer going over contact form */
 .contact-info {
   height: 100px;
+  background-color: #333;
 }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
