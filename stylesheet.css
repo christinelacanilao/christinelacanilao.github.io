@@ -146,9 +146,8 @@ body, html {
 }
 
 
-
-
 /* ---------- CONTACT SECTION ---------- */
+
 
 /* Background Image */
 /* Inspired by w3schools - paired with specific parameters to show a background and create a design */
@@ -160,7 +159,9 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 800px;
 }
 
 /* Section 1 - Email Contact Us */
