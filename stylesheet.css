@@ -101,6 +101,7 @@ body, html {
 /* Add some shadows to create a card effect */
 .card {
   display: flex;
+  margin-bottom: 20px;
 }
 
 /* Setting image size */
@@ -137,26 +138,12 @@ body, html {
 
 .title {
   color: white;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
+  font-style: italic;
 }
 
 
 /* ---------- CONTACT SECTION ---------- */
+
 
 /* Written by Christine */
 
@@ -206,11 +193,13 @@ input[type=submit]:hover {
 .Section-1 {
   margin: 0 auto;
   text-align: left;
+  color: #333;
   background-color: white;
   border-radius: 5px;
   padding: 15px;
   top: 10px;
   max-width: 800px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }  
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
