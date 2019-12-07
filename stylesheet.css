@@ -69,14 +69,13 @@ body, html {
 }
 
 .parallax-text {
-  background-color: #111;
+  background-color: #656565;
   color: #fff;
   align-content: center;
   text-align: center;
   padding: 50px 80px;
   /* letter-spacing: 3px; */
   text-align: justify;
-  opacity: 0.65;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
