@@ -229,7 +229,7 @@ input[type=submit]:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: rgb(113,222,125);
   color: white;
 }
 
@@ -406,7 +406,7 @@ input[type=submit]:hover {
 
 /* The "Sign Up" button */
 .button2 {
-  background-color: #4CAF50;
+  background-color: rgb(113,222,125);
   border: none;
   color: white;
   padding: 10px 25px;
